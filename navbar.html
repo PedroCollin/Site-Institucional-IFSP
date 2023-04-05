@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <script src="http://www.w3schools.com/lib/w3data.js"></script>
+
+        <title>Menu Responsivo</title>
+    </head>
+
+    <body id="corpo-site">
+        <header class="menu-superior" id="menu-superior">
+            <div class="btn-menu">
+                <i class='bx bx-menu' id="btn-menu"></i>
+            </div>
+
+            <div></div>
+                <i class="bx bx-bell icone"></i>
+            </div>
+        </header>
+        <div class="menu-lateral" id="menu-lateral">
+            <nav class="nav">
+                <div>
+                    <a href="#" class="menu-logo">
+                        <img src="assets/img/logo.png" class="menu-logo-img">
+                        <span class="menu-logo-nome">Instituto Federal</span>
+                    </a>
+
+                    <div>
+                        <a href="#index" class="nav-lista ativo">
+                            <i class='bx bx-home nav-icone' ></i>
+                            <span>Pagina Inicial</span>
+                        </a>
+
+                        <a href="#historico" class="nav-lista">
+                            <i class='bx bx-history nav-icone'></i>
+                            <span>Histórico</span>
+                        </a>
+
+                        <a href="#cursos" class="nav-lista">
+                            <i class='bx bx-collection nav-icone' ></i>
+                            <span>Cursos</span>
+                        </a>
+                        
+                        <a href="#biblioteca" class="nav-lista">
+                            <i class='bx bx-book nav-icone' ></i>
+                            <span>Biblioteca</span>
+                        </a>
+
+                        <a href="#pesquisa" class="nav-lista">
+                            <i class='bx bx-search-alt nav-icone' ></i>
+                            <span>Pesquisa</span>
+                        </a>
+
+                        <a href="#extensao" class="nav-lista">
+                            <i class='bx bx-extension nav-icone'></i>
+                            <span>Extensão</span>
+                        </a>
+
+                        <a href="#seletivo" class="nav-lista">
+                            <i class='bx bx-receipt nav-icone' ></i>
+                            <span>Processo seletivo</span>
+                        </a>
+
+                        <a href="#calendario" class="nav-lista">
+                            <i class='bx bx-calendar nav-icone' ></i>
+                            <span>Calendário acad.</span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <section id="index">
+            <div w3-include-html="index.html"></div>
+            <script>
+                w3IncludeHTML();
+            </script>
+        </section>
+        <section id="historico">
+            <div w3-include-html="historico.html"></div>
+            <script>
+                w3IncludeHTML();
+            </script>
+        </section>
+        <section id="cursos">
+            <div w3-include-html="cursos.html"></div>
+            <script>
+                w3IncludeHTML();
+            </script>
+        </section>
+        <section id="biblioteca">
+            <div w3-include-html="biblioteca.html"></div>
+            <script>
+                w3IncludeHTML();
+            </script>
+        </section>
+        <section id="pesquisa">
+            <div w3-include-html="pesquisa.html"></div>
+            <script>
+                w3IncludeHTML();
+            </script>
+        </section>
+        <section id="extensao">
+            <div w3-include-html="extensao.html"></div>
+            <script>
+                w3IncludeHTML();
+            </script>
+        </section>
+        <section id="seletivo">
+            <div w3-include-html="seletivo.html"></div>
+            <script>
+                w3IncludeHTML();
+            </script>
+        </section>
+        <section id="calendario">
+            <div w3-include-html="calendario.html"></div>
+            <script>
+                w3IncludeHTML();
+            </script>
+        </section>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

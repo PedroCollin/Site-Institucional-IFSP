@@ -7,9 +7,9 @@
   --nav-width: 68px;
 
 
-  --cor-azul-principal: #0d1a27;
-  --first-color-light: #AFA5D9;
-  --cor-branca: #F7F6FB;
+  --cor-azul-principal: #f5f4f4;
+  --first-color-light: #195128;
+  --cor-branca: #000;
   
 
   --body-font: 'Nunito', sans-serif;
@@ -48,7 +48,7 @@ a{
   align-items: center;
   justify-content: space-between;
   padding: 0 1rem;
-  background-color: var(--cor-branca);
+  background-color: var(--cor-azul-principal);
   z-index: var(--z-fixed);
   transition: .5s;
 }
@@ -58,7 +58,7 @@ a{
 }
 
 .btn-menu{
-  color: var(--cor-azul-principal);
+  color: #195128;
   font-size: 1.5rem;
   cursor: pointer;
 }
@@ -171,6 +171,10 @@ a{
 
   .body-pd{
     padding-left: calc(var(--nav-width) + 188px);
+  }
+
+  #cursos{
+    padding-top: 8px !important;
   }
 }
 

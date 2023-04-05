@@ -1,0 +1,22 @@
+/* Estilo para os títulos */
+h1, h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  /* Estilo para as imagens */
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+  }
+  
+  /* Estilo para os parágrafos */
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+  

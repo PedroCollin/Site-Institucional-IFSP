@@ -1,0 +1,51 @@
+/* Centralize todo o conteúdo */
+body {
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: auto;
+  }
+  
+  /* Estilo para os títulos */
+  h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  /* Estilo para os parágrafos */
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+  
+  /* Estilo para as listas */
+  ul {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  /* Estilo para os itens da lista */
+  li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Estilo para as seções */
+  section {
+    margin-bottom: 2rem;
+    margin: auto;
+  }
+  
+  /* Estilo para as seções com IDs específicos */
+  #biblio-acervo,
+  #biblioteca-servicos,
+  #biblioteca-horario {
+
+    padding: 1rem;
+    text-align: left;
+
+  }
+  

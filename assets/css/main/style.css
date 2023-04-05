@@ -1,0 +1,236 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para o destaque principal */
+  #destaque {
+    background-color: #195128;
+    color: #fff;
+    padding: 10rem;
+    text-align: center;
+  }
+  
+  #destaque h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  #destaque p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  #destaque .botao {
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    color: #195128;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  #destaque .botao:hover {
+    background-color: #fff;
+    color: #195128;
+  }
+  
+  /* Estilos para os cursos */
+  #cursos {
+    margin: 50px auto;
+    max-width: 900px;
+  }
+  
+  #cursos h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .curso {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    overflow: hidden;
+  }
+  
+  .curso img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  
+  .curso h3 {
+    font-size: 1.5rem;
+    margin: 20px;
+  }
+  
+  .curso p {
+    font-size: 1.2rem;
+    margin: 20px;
+  }
+  
+  .curso a {
+    background-color: #195128;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    font-size: 1.2rem;
+    margin: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .curso a:hover {
+    background-color: #fff;
+    color: #195128;
+  }
+  
+  /* Estilos para os eventos */
+  #eventos {
+    margin: 50px auto;
+    max-width: 900px;
+  }
+  
+  #eventos h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  #eventos ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #eventos li {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    overflow: hidden;
+  }
+  
+  #eventos li img {
+    flex-basis: 40%;
+    max-width: 40%;
+  }
+  
+  #eventos li h3 {
+    font-size: 1.5rem;
+    flex-basis: 60%;
+    margin: 20px;
+  }
+  
+  #eventos li p {
+    font-size: 1.2rem;
+    flex-basis: 60%;
+    margin: 20px;
+  }
+  
+  #eventos li a {
+    background-color: #195128;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    }
+    
+    /* Estilo para os links quando o mouse passa por cima */
+    #eventos li a:hover {
+    background-color: #195128;
+    }
+    
+    /* Estilo para os links quando estão ativos */
+    #eventos li a:active {
+    background-color: #195128;
+    }
+    
+    /* Estilo para os elementos da lista de eventos */
+    #eventos li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    }
+    
+    /* Estilo para a imagem dos eventos */
+    #eventos li img {
+    width: 100%;
+    border-radius: 5px;
+    }
+    
+    /* Estilo para o cabeçalho dos eventos */
+    #eventos h2 {
+    text-align: center;
+    margin-top: 50px;
+    }
+    
+    /* Estilo para os cursos */
+    #cursos {
+    text-align: center;
+    margin-top: 50px;
+    }
+    
+    /* Estilo para cada curso */
+    .curso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    }
+    
+    /* Estilo para a imagem do curso */
+    .curso img {
+    width: 100%;
+    border-radius: 5px;
+    }
+    
+    /* Estilo para o cabeçalho dos cursos */
+    #cursos h2 {
+    text-align: center;
+    margin-top: 50px;
+    }
+    
+    /* Estilo para os botões */
+    .botao {
+    background-color: #195128;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    }
+    
+    /* Estilo para os botões quando o mouse passa por cima */
+    .botao:hover {
+    background-color: #195128;
+    }
+    
+    /* Estilo para os botões quando estão ativos */
+    .botao:active {
+    background-color: #195128;
+    }
+  
